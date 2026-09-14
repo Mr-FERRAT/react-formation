@@ -13,9 +13,22 @@
 
 /* Ajout d'expression */
 
+const a = 5
+const b = 10
+console.log("le calcul de a plus b est égal à :", a + b)
+console.log(`le calcul de a plus b est égal à :${a+b}`)
+
 
 /* Saut de ligne */
 
+console.log("Voici du text \n qui passe à la ligne")
+console.log(`Voici du text
+  qui passe à la ligne`)
 
 
 /* Utilisation de l'expression retournée par une fonction. */
+
+function foo(){
+  return "abc"
+}
+console.log(`l'alphabet commence par : ${foo()}`)

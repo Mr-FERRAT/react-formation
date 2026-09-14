@@ -4,3 +4,4 @@
     003 - Ressources
 02 - Rappel JavaScript moderne
     001 Let, const et var
+    002 Les template strings
