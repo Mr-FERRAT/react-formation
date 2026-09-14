@@ -1,2 +1,6 @@
 01 - Introduction
     001 - Introduction
+    002 - Mise en place de l'editeur de code et conseils
+    003 - Ressources
+02 - Rappel JavaScript moderne
+    001 Let, const et var
