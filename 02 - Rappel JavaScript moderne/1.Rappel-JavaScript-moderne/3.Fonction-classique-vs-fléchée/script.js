@@ -8,7 +8,19 @@
     La syntaxe est moins chargée, pouvant ainsi être plus facilement utilisée en tant qu'argument, notamment en tant que fonction callback.
 */
 
+function add(a,b){
+    return a+b
+}
 
+const add1 = function(a,b){
+    return a+b
+}
+
+const add2 = (a,b) => a+b
+
+const numbers = [1,2,3]
+
+// numbers.forEach(el => console.log(el))
 
 /* 
     2. Le mot clé this.
@@ -20,15 +32,39 @@
     Si elles ne sont pas dans l'environnement(donc contexte) une fonction classique, elle lisent le this de l'objet global, car elles sont dans le contexte d'execution global.
 */
 
+const person = {
+    age: 45,
+    getAge: function(){
+
+        const arrowInsideClassic=() => {
+            console.log("From Arrow",this)
+        }
+        arrowInsideClassic()
+        return this
+    },
+            getArrowAge: () => {
+            return this;
+        }
+}
+console.log(person.getAge())
+console.log(person.getArrowAge())
 
 
-
+// window.foo()
 /* 
     3. arguments
     Même chose pour l'objet "arguments" qui est crée chez les fonctions classiques, mais pas les fonctions fléchées.
 */
 
+function faz(){
+    console.log(arguments) // lisete des arguments
+}
+const foz = () => {
+    console.log(arguments)
+}
 
+faz (1,2,3,4,5)
+foz (1,2,3,4,5)
 
 
 /*
