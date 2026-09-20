@@ -6,4 +6,4 @@
     001 Let, const et var
     002 Les template strings
     003 Les différences entre les fonctions fléchées et les fonctions classiques
-    004
+    004 Les spread operator
