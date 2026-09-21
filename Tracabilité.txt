@@ -10,3 +10,4 @@
     005 Le destructuring
     006 Le rest operator et les paramètres par défaut
     007 Les fonctions pures
+    008 Les fonctions d'ordre supérieur
