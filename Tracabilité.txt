@@ -9,3 +9,4 @@
     004 Les spread operator
     005 Le destructuring
     006 Le rest operator et les paramètres par défaut
+    007 Les fonctions pures
