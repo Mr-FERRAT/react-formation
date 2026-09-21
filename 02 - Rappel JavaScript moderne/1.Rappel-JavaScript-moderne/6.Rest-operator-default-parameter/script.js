@@ -8,7 +8,7 @@ function concatenation(...strings){
   return strings.reduce((acc,cur) => acc + cur)
 }
 
-console.log(concatenation("Je ", "suis ", "heureux."));
+// console.log(concatenation("Je ", "suis ", "heureux."));
 
 
 

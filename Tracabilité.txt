@@ -8,4 +8,4 @@
     003 Les différences entre les fonctions fléchées et les fonctions classiques
     004 Les spread operator
     005 Le destructuring
-    006 
+    006 Le rest operator et les paramètres par défaut
