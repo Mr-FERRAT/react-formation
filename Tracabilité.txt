@@ -11,3 +11,5 @@
     006 Le rest operator et les paramètres par défaut
     007 Les fonctions pures
     008 Les fonctions d'ordre supérieur
+    009 Les méthodes des tableaux partie 1
+    010

@@ -14,7 +14,7 @@
 
     Définition: Exécute une fonction callback sur chaque élément d'un tableau.
     
-    La callback est TOUJOURS appelée avec TOUS les paramètres.
+    La callback est TOUJOURS appelée avec TOUS les arguments qui correspondent aux paramètres.
     C'est au dev de choisir celui ou ceux qu'il veut utiliser.
 
     Valeur de retour : undefined
@@ -23,7 +23,7 @@
 
 const numbers = [1,2,3,4,5,6]
 
-
+// numbers.forEach((num, index, array) => console.log(num, index, array))
 
 
 /* 
@@ -50,19 +50,21 @@ const people = [
     age: 27
   }
 ]
-
+const names = people.map(people => people.name)
+// console.log(names)
 
 /* 
     3. Array.prototype.filter(callback(el, index, array))
 
-    Valeur de retour : Un tableau contenant les éléments ayant passés le test de la retour de la fonction callback.
+    Valeur de retour : Un tableau contenant les éléments ayant passés le test du retour de la fonction callback.
     Si la fonction retourne true, on garde l'élément dans le tableau retourné, sinon on l'ignore.
 
     Permet de filtrer les éléments d'un tableau.
 */
 
 const heights = [170,185,198,162,187,155,178,207,201,189]
-
+const lessThan180 = heights.filter(height => height < 180)
+console.log(lessThan180)
 
 
 /* 
