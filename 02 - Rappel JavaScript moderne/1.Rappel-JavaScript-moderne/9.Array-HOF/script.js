@@ -64,7 +64,7 @@ const names = people.map(people => people.name)
 
 const heights = [170,185,198,162,187,155,178,207,201,189]
 const lessThan180 = heights.filter(height => height < 180)
-console.log(lessThan180)
+//console.log(lessThan180)
 
 
 /* 
@@ -82,6 +82,8 @@ console.log(lessThan180)
 
 const marks = [18,5,17,12,20,16,14]
 
+const average = marks.reduce((acc, mark) => acc + mark, 0)/marks.length
+// console.log(average.toFixed(2))
 
 /* 
     5. Array.prototype.sort(callback(firstEl, secondEl))
@@ -108,8 +110,14 @@ const marks = [18,5,17,12,20,16,14]
 
 const letters = ["z","b","a","d","e"];
 
+letters.sort()
+console.log(letters);
+
 
 const numbers2 = [10,55,2,250,500,85]
+
+numbers2.sort((a,b)=> b-a)
+console.log(numbers2)
 
 
 // On peut aussi trier des tableaux d'objets
@@ -128,3 +136,5 @@ const store = [
     },
 ]
 
+store.sort((a,b) => a.price - b.price)
+console.log(store)
