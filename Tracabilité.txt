@@ -13,5 +13,5 @@
     008 Les fonctions d'ordre supérieur
     009 Les méthodes des tableaux partie 1
     010 Les méthodes des tableaux partie 2
-    011 Astuces sytaxiques
-    012
+    011 Astuces syntaxiques
+    012 La méthode fetch()
