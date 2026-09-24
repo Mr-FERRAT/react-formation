@@ -15,3 +15,4 @@
     010 Les méthodes des tableaux partie 2
     011 Astuces syntaxiques
     012 La méthode fetch()
+    013 Utiliser les modules es6
