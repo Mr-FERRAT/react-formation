@@ -18,3 +18,4 @@
     013 Utiliser les modules es6
 03 - Créer une app avec React
     001 Qu'est-ce qu'une application web
+    002 Utiliser React sans un bundler
