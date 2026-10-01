@@ -21,3 +21,5 @@
     002 Utiliser React sans un bundler
     003 Un bundler, qu'est-ce que c'est
     004 Création d'une app web avec Vite et explication de l'architecture du dossier
+04 - Les bases de React
+    001 Mise en place du dossier et des extensions
