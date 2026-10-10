@@ -2,19 +2,16 @@ import React from 'react'
 
 function Container() {
   return (
-    // <div>Container</div>
     <div>
-      <p></p>
-      <ul className="list">
-        <li className="item"></li>
-        <li className="item"></li>
-        <li className="item"></li>
-        <li className="item"></li>
-        <li className="item"></li>
-        <li className="item"></li>
-      </ul>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
     </div>
   )
 }
 
-export default Containe
+export default Container
+/*
+  jsx('div, *{children: [jsx(p,children)]})
+*/
