@@ -28,4 +28,5 @@
     004 Notre premier composant
     005 Utiliser des évènements
     006 Le state
-    007 
+    007 Les props
+    008
