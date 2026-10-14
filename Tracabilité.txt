@@ -33,4 +33,5 @@
     009 Créer une liste d'éléments
     010 Utiliser des images
     011 Rendu conditionnel avec if
-    012
+    012 Rendu conditionnel avec une opération ternaire
+    013
