@@ -31,4 +31,5 @@
     007 Les props
     008 Utiliser du CSS
     009 Créer une liste d'éléments
-    010
+    010 Utiliser des images
+    011 
