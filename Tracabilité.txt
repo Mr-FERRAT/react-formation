@@ -35,4 +35,5 @@
     011 Rendu conditionnel avec if
     012 Rendu conditionnel avec une opération ternaire
     013 Rendu conditionnel avec une cpération de court-circuit
-    014
+    014 Exemple de toggle d'une classe html
+    015 
