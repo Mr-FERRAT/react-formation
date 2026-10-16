@@ -8,11 +8,21 @@ export default function Container() {
   function handleInput (e){
     setState(e.target.value)
   }
+
+  const emailRef = useRef()
+
+  function handleSubmit(e){
+    e.preventDefault()
+
+    console.log(state)
+    console.log(emailRef.current.value)
+  }
+  
   return (
     <div>
       <h1>Composants "controlled" et "uncontrolled"</h1>
 
-      <form action="">
+      <form onSubmit={handleSubmit}>
         <label htmlFor="pseudo">Votre pseudo</label>
         <input 
         onChange={handleInput}
@@ -20,7 +30,12 @@ export default function Container() {
         type="text"
         id="pseudo"
          />
-         {!state && <p>Veuillez remplir cet input</p>}
+         {/* {!state && <p>Veuillez remplir cet input</p>} */}
+         <label htmlFor="email">Votre email</label>
+         <input  
+         ref={emailRef}
+         type="email" 
+         id="email"/>
 
          <button>Envoyer</button>
       </form>
