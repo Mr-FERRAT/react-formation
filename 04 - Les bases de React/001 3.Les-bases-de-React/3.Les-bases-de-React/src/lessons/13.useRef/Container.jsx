@@ -1,8 +1,26 @@
+import { useRef, useState } from "react"
+
+// 1. Isoler une valeur parmi les mises à jour
+// 2. Sélectionner un élément 
+
 export default function Container() {
 
+  const [state, setState] = useState (0)
+  const countRef = useRef(0)
+  console.log(countRef)
+  
+  function handlCountRef(){
+    countRef.current++
+    console.log(countRef.current)
+  }
+  console.log("Mise à jour")
   return (
     <div>
-      <h1>Comprendre les refs</h1>
+      <h1>Le hook useRef</h1>
+      <p>Valeur de state {state}</p>
+      <p>Valeur de la ref {countRef.current}</p>
+      <button onClick={handlCountRef}>Incrémenter la ref</button>
+      <button onClick={() => setState(state + 1)}>Incrémenter la ref</button>
     </div>
   )
 }
