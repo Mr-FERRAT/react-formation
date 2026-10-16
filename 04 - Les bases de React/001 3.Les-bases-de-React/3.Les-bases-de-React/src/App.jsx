@@ -1,4 +1,4 @@
-import Container from "./lessons/10.Opérateur-ternaire/Container"
+import Container from "./lessons/11.Short-circuit/Container"
 
 function App() {
 

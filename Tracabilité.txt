@@ -34,4 +34,5 @@
     010 Utiliser des images
     011 Rendu conditionnel avec if
     012 Rendu conditionnel avec une opération ternaire
-    013
+    013 Rendu conditionnel avec une cpération de court-circuit
+    014

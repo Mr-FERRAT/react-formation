@@ -1,9 +1,16 @@
 export default function Container() {
 
+  const isLogged = true
+  
   return (
     <div>
       <h1>Bienvenue sur BooksParadise</h1>
 
+    {/* {isLogged ? <button>Afficher votre collection</button> : "" } */}
+    <br /><br /><br />
+
+    {isLogged && <button>Afficher votre collection</button>}
+    
 
     </div>
   )
