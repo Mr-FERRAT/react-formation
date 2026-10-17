@@ -41,3 +41,5 @@
     017 Les inputs controllés
     018 Les inputs incontrollés
 05 - Projet To-do list
+    001 Mise en place
+    002
