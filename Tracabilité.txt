@@ -43,3 +43,4 @@
 05 - Projet To-do list
     001 Mise en place
     002 Création du contenu
+    003 Explication de ReactstrictMode
