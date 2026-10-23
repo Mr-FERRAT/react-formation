@@ -1,4 +1,20 @@
+import { useState } from "react"
+import { nanoid } from "nanoid"
+import ListItem from "../../04 - Les bases de React/001 3.Les-bases-de-React/3.Les-bases-de-React/src/components/ListItem"
+
 function App() {
+
+  const [todoList, setToloList] = useState([
+    {id: nanoid(8), content: "item 1"},
+    {id: nanoid(8), content: "item 2"},
+    {id: nanoid(8), content: "item 3"},
+
+  ])
+
+  function deleteTodo(id){
+    setToloList(todoList.filter(todo => todo.id !== id))
+  }
+
   return (
     <div className="h-screen bg-slate-900"> 
       <div className="max-w-4xl mx-auto pt-20 px-6">
@@ -10,7 +26,9 @@ function App() {
           <button className="mt-4 py-2 bg-slate-50 rounded min-w-[115px]">Ajouter</button>
         </form>
         <ul>
-
+          {todoList.map(item => (
+            <ListItem key={item.id} itemData={item} deleteTodo ={deleteTodo}/>
+          ))}
         </ul>
       </div>
     </div>

@@ -44,3 +44,5 @@
     001 Mise en place
     002 Création du contenu
     003 Explication de ReactstrictMode
+    004 Création et supression d'éléments
+    005
