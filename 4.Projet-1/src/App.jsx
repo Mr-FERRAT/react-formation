@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { nanoid } from "nanoid"
-import ListItem from "../../04 - Les bases de React/001 3.Les-bases-de-React/3.Les-bases-de-React/src/components/ListItem"
+import ListItem from "./components/ListItem"
 
 function App() {
 
