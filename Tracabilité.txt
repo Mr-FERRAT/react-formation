@@ -48,3 +48,5 @@
     005 Ajouter un élément et validations
 06 - React dans le détail
     001 Les fragments
+    002 Les règles des hooks
+    003
