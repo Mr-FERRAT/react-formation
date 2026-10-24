@@ -46,4 +46,5 @@
     003 Explication de ReactstrictMode
     004 Création et supression d'éléments
     005 Ajouter un élément et validations
-06 - 
+06 - React dans le détail
+    001 Les fragments
