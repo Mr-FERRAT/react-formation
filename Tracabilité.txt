@@ -50,3 +50,4 @@
     001 Les fragments
     002 Les règles des hooks
     003 Le hook useEffect
+    004 Le cycle de vie d'un composant
